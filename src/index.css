@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700;800&family=Open+Sans:wght@300;400&display=swap');
+*{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F66000;
+}
+header{
+  margin-top: 2.563rem;
+  width: 37.125rem;
+  height: 9.563rem;
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: flex-start;
+}
+.container-productsAndTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1, h2, h3 {
+  color:#FFFFFF;
+}
+h1{
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2, h3 {
+  font-weight: 400;
+  font-size: 2.688rem;
+}
+
+h3{
+width: 43.188rem;
+height: 6.875rem; 
+text-align: start;
+margin-left: 6.438rem;
+margin-top: 2.563rem;
+}
+ section{
+ width: 35rem;
+}
+section div img{
+width: 8rem;
+cursor: pointer;
+}
+.colum-1{
+  margin-bottom: 1rem;
+}
+.colum-1, .colum-2 {
+display: flex;
+gap: 1rem;
+}
+aside{
+background-color: #F7E0CE;
+width: 18.375rem;
+height: 27.375rem;
+border-radius: 6rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.box-carrinho {
+width: 14.875rem;
+height: 14.813rem;
+background-color: #D3C5BB;
+border-radius: 2rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 4.688rem;
+}
+figure, figcaption {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.box-bottons{
+  background-color: #D3C5BB;
+  width: 10.438rem;
+  height: 3.25rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.minus, .plus{
+  mix-blend-mode: darken;
+  cursor: pointer;
+}
+
